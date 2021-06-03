@@ -1,0 +1,14 @@
+{
+    "_copy_without_render": [
+        "profile/vars/*.yml",
+        "profile/tasks/post_install/*.yml",
+        "profile/handlers/*.yml"
+    ],
+    "_template": "profile/",
+    "author": "Niall Byrne",
+    "description": "An example Mac Maker profile.",
+    "email": "niall@niallbyrne.ca",
+    "github_handle": "osx-provisioner",
+    "profile_name": "Profile Example",
+    "profile_slug": "profile-example"
+}

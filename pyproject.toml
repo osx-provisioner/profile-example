@@ -1,0 +1,25 @@
+
+[build-system]
+  build-backend = "poetry.core.masonry.api"
+  requires = ["poetry-core>=1.0.0"]
+
+[tool]
+
+  [tool.poetry]
+    authors = ["Niall Byrne <niall@niallbyrne.ca>"]
+    description = "An example Mac Maker profile."
+    name = "profile-example"
+    version = "0.1.1"
+
+    [tool.poetry.dependencies]
+      python = ">=3.8.0,<4.0"
+
+    [tool.poetry.dev-dependencies]
+      ansible = "^4.0.0"
+      ansible-lint = "^5.0.8"
+      commitizen = "^2.17.6"
+      yamllint = "^1.26.1"
+
+      [tool.poetry.dev-dependencies.molecule]
+        extras = ["docker"]
+        version = "^3.3.0"

@@ -1,0 +1,23 @@
+---
+- name: "profile-example"
+  hosts: localhost
+  connection: local
+
+  handlers:
+    - name: Load Handlers
+      include: "handlers/main.yml"
+
+  pre_tasks:
+    - name: Load Variables
+      include_vars: "vars/main.yml"
+
+  roles:
+    - elliotweiser.osx-command-line-tools
+    - geerlingguy.mac.homebrew
+    - osx_provisioner.homebrew_retry
+    - osx_provisioner.clamav
+    - osx_provisioner.asdf
+
+  post_tasks:
+    - name: Run Post Install Tasks
+      include_tasks: "tasks/post_install/main.yml"

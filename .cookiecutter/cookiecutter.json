@@ -1,0 +1,18 @@
+{
+    "_GITHUB_ACTION_MARKDOWN_LINK_CHECK": "gaurav-nelson/github-action-markdown-link-check@1.0.12",
+    "_GITHUB_GITLEAKS_ACTION": "zricethezav/gitleaks-action@v1.6.0",
+    "_GITHUB_YAMLLINT_ACTION": "ibiqlik/action-yamllint@v3",
+    "_copy_without_render": [
+        "profile/vars/*.yml",
+        "profile/tasks/post_install/*.yml",
+        "profile/handlers/*.yml"
+    ],
+    "_output_dir": "/home/runner/work/profile-generator/profile-generator",
+    "_template": "template/",
+    "author": "Niall Byrne",
+    "description": "An example Mac Maker profile.",
+    "email": "niall@niallbyrne.ca",
+    "github_handle": "osx-provisioner",
+    "profile_name": "Profile Example",
+    "profile_slug": "profile-example"
+}

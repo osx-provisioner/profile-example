@@ -1,0 +1,33 @@
+{
+  "httpHeaders": [
+    {
+      "urls": [
+        "https://github.com/",
+        "https://guides.github.com/",
+        "https://help.github.com/",
+        "https://docs.github.com/"
+      ],
+      "headers": {
+        "Accept-Encoding": "zstd, br, gzip, deflate"
+      }
+    }
+  ],
+  "ignorePatterns": [
+    {
+      "pattern": "^https://github.com/osx-provisioner/profile-example/"
+    },
+    {
+      "pattern": "^https://ansible-lint.readthedocs.io/"
+    },
+    {
+      "pattern": "^https://docs.ansible.com/ansible/latest/"
+    },
+    {
+      "pattern": "^https://manpages.ubuntu.com/manpages/jammy/"
+    },
+    {
+      "pattern": "^https://molecule.readthedocs.io/"
+    }
+  ],
+  "timeout": "20s"
+}

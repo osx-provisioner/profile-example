@@ -1,0 +1,11 @@
+---
+collections:
+  - name: community.general
+    version: ">=12.2.0" # >=8.0.0 is sufficient, but may leak credentials due to CVE-2025-14010
+  - name: geerlingguy.mac
+    version: ">=4.0.0,<5.0.0"
+  - name: osx_provisioner.collection
+    version: ">=3.2.0,<4.0.0"
+roles:
+  - name: elliotweiser.osx-command-line-tools
+    version: 2.3.0

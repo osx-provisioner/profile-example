@@ -1,0 +1,11 @@
+profile-example
+
+An example Mac Maker profile.
+
+=== Pre-Installation
+
+Add some pre-installation notes for the end user.
+
+=== Post-Installation
+
+Add some post-installation notes here.
